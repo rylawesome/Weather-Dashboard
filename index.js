@@ -1,6 +1,8 @@
 //4e6d60f819aed532466e617dc2301ed4
 //1b90f839f0ad84f4fb096fa613576738
 
+var cities = [];
+
 function FormatDate(date){
     var date = new Date();
     console.log(date); //comment out later
