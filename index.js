@@ -34,6 +34,7 @@ function renderCities(){
     var cityList = $('#citiesList');
     cityList.empty();
     //create list for cities
+    var cities = [];
     for (var i = 0; i < cities.length; i++) {
         var city = cities[i];
         var li = $('<li>').text(city);
